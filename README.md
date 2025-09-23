@@ -6,11 +6,9 @@
 <h1 align="center">SupplyGuard</h1>
 
 <p align="center">
-    <a href="https://www.youtube.com/watch?v=OpL5Q7Zc7qk" title="">🖥️ Video</a>
-    .
-    <a href="https://github.com/mendsalbert/supplyguard" title="">📂 Repo</a>
+    <a href="https://github.com/sensurusirupus/supplyguard" title="">📂 Repo</a>
     ·
-    <a href="https://github.com/mendsalbert/supplyguard" title="🐛Report Bug/🎊Request Feature">🚀 Got Issue</a>
+    <a href="https://github.com/sensurusirupus/supplyguard" title="🐛Report Bug/🎊Request Feature">🚀 Got Issue</a>
 </p>
 <a href="" title="Project Initiator">
     <img src="https://i.imghippo.com/files/9hGC61714753154.png" width="100%" alt="Project Initiator"/>
@@ -60,7 +58,7 @@ SupplyGuard is crafted using cutting-edge technology tailored for decentralized 
 1. Clone the repository
 
 ```Bash
-git clone https://github.com/mendsalbert/supplyguard
+git clone https://github.com/sensurusirupus/supplyguard
 ```
 
 2. Change the working directory
