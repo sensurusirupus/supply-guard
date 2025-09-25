@@ -18,7 +18,7 @@
 
 The current landscape of supply chain management is often marred by inefficiencies due to centralized systems that are opaque and prone to delays and errors. This leads to a significant impact on the reliability and transparency that businesses and consumers desperately need. SupplyGuard was inspired by the potential of decentralized technology to fundamentally change this by ensuring every transaction within the supply chain is immutable, transparent, and verifiable by all parties involved.
 
-### What it Does ⚙️
+### What it Does. ⚙️
 
 SupplyGuard introduces a transformative approach to managing supply chains by leveraging blockchain technology to enhance transparency, accountability, and operational efficiency:
 
