@@ -559,7 +559,7 @@ The pitch deck includes:
 
 SupplyGuard has been certified/recognized by:
 
-🔗 **[View Certification](https://your-certification-link.com)** _(Replace with your actual certification URL)_
+🔗 **[View Certification](https://drive.google.com/file/d/1k9HHU0_LjGNtzu8zj5-yhcRupHw8cZC6/view?usp=sharing)**
 
 **Certification Details**:
 
@@ -1094,7 +1094,7 @@ npm run lint
 
 ## 🔮 Roadmap
 
-### Short-Term (Q1 2025)
+### Short-Term (Q1 2026)
 
 - [ ] **Mobile Application**: React Native app for iOS and Android
 - [ ] **Enhanced Analytics**: Dashboard with supply chain metrics
@@ -1102,7 +1102,7 @@ npm run lint
 - [ ] **Advanced Search**: Full-text search across products and orders
 - [ ] **Notification System**: Email and push notifications for order updates
 
-### Medium-Term (Q2-Q3 2025)
+### Medium-Term (Q2-Q3 2026)
 
 - [ ] **AI Predictions**: Predictive analytics for demand forecasting
 - [ ] **IoT Integration**: Connect with IoT devices for automatic tracking
@@ -1110,7 +1110,7 @@ npm run lint
 - [ ] **Multi-Language Support**: Internationalization (i18n)
 - [ ] **Advanced Reporting**: Generate PDF reports and analytics
 
-### Long-Term (Q4 2025+)
+### Long-Term (Q4 2026+)
 
 - [ ] **DeFi Integration**: Tokenization of supply chain assets
 - [ ] **Cross-Chain Bridges**: Interoperability with other blockchains
