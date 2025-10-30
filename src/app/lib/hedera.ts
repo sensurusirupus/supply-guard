@@ -17,3 +17,4 @@ export function getHederaClient(): Client {
   );
   return client;
 }
+
