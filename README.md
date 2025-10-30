@@ -852,6 +852,55 @@ The application will be available at `http://localhost:3000`
 
 ---
 
+## 🧩 Hedera SDK Services (New)
+
+We now integrate the official Hedera SDK to leverage native services beyond EVM contracts. This improves tool coverage and demonstrates Hedera-native capabilities.
+
+### Environment Variables
+
+Add these to your `.env.local` (testnet credentials):
+
+```bash
+HEDERA_OPERATOR_ID=0.0.xxxxxx
+HEDERA_OPERATOR_KEY=302e0201... (private key)
+```
+
+### API Endpoints
+
+All endpoints live under Next.js API routes.
+
+- Create HCS Topic
+
+  - POST `/api/hedera/topic-create`
+  - Response: `{ success, topicId }`
+
+- Publish HCS Message
+
+  - POST `/api/hedera/topic-publish`
+  - Body: `{ topicId: string, message: string }`
+  - Response: `{ success, status }`
+
+- Account Balance (HBAR)
+  - GET `/api/hedera/account-balance?accountId=0.0.xxxxxx`
+  - If `accountId` omitted, uses `HEDERA_OPERATOR_ID`
+  - Response: `{ success, accountId, hbars }`
+
+### Implementation Files
+
+- Client factory: `src/app/lib/hedera.ts`
+- Routes:
+  - `src/app/api/hedera/topic-create/route.ts`
+  - `src/app/api/hedera/topic-publish/route.ts`
+  - `src/app/api/hedera/account-balance/route.ts`
+
+### Why This Matters
+
+- Uses Hedera Consensus Service (HCS)
+- Demonstrates native SDK usage in addition to EVM smart contracts
+- Clear, auditable endpoints for judges/tools to ping
+
+---
+
 ## 📄 Smart Contracts
 
 ### SupplyGuard.sol
